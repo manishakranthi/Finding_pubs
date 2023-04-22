@@ -8,7 +8,7 @@ df = pd.read_csv('pub.csv')
 st.set_page_config(layout="centered")
 
 st.markdown("<h1 style='text-align: center; color: #b56a67; font-weight: bold;'> Open Pubs Application 🍻</h1>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: #5243AA;'>Welcome to pub finder app! 🎉</h2>", unsafe_allow_html=True) 
+st.markdown("<h2 style='text-align: center; color: #000000;'>Welcome to pub finder app! 🎉</h2>", unsafe_allow_html=True) 
 
 # Add an image of a pub
 st.image('pubs.jpg', use_column_width=True)
