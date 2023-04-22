@@ -11,7 +11,7 @@ df = pd.read_csv('pub.csv')
 # Set the page layout to centered
 st.set_page_config(layout="centered")
 
-st.markdown("<h1 style='text-align: center; color: #5243AA; font-weight: bold;'>  Pun Locations 🍻</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #000000; font-weight: bold;'>  Pub Locations 🍻</h1>", unsafe_allow_html=True)
 
 # Add an image of a pub
 st.image('pubs_uk.jpg', use_column_width=True)
